@@ -347,6 +347,7 @@ img {
 }
 .portfolio-list-item:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 .portfolio-title-text{
     padding: 32px 16px;
@@ -388,6 +389,8 @@ img {
 .down-block{
    background-color: #2e2f42;
    padding: 100px 0;
+   display: flex;
+   align-items: baseline
 }  
 .footer-logo{
     color: #4D5AE5;
@@ -420,4 +423,40 @@ img {
  letter-spacing: 0.32px;
  background-color: #2E2F42;
  width: 264px;
+}
+.futer-container{
+    margin-right: 120px;
+}
+.futer-cosial-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.futer-list-link{
+    display: flex;
+    gap: 16px;
+}
+.futer-link{
+    width: 40px;
+    height: 40px;
+}
+.link{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.link:hover,
+.link:focus{
+    background-color: #31d0aa;
+}
+.link-icon{
+    fill: #f4f4fd;
 }
