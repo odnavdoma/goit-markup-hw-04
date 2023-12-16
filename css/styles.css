@@ -206,6 +206,16 @@ img {
     background-color:#404BBF;
 }
 /* 3-block */
+.feauter-item-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+
+}
 .feature-section{
     padding: 120px 0;
 }
@@ -247,6 +257,31 @@ img {
     text-align: center;
 }
 /* 4-block */
+.icon-item{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.icon-item:hover,
+.icon-item:focus{
+ background-color: #404bbf;   
+}
+
+
+.social-icon{
+    width: 40px; 
+    height: 40px;
+}
+.social-list-icon{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 .tim-name-text{
     padding: 32px 0;
 }
@@ -312,6 +347,7 @@ img {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .imgn-title{
     margin-bottom: 8px;
