@@ -144,8 +144,15 @@ img {
 }
 /* 2 блок */
 .title{
+ width: 1440px;
+  margin: auto;
     background-color: #2e2f42;
     padding: 188px 0;
+   
+    background-image: url(../images/hero/people-office\ 1\ \(2\).jpg); 
+    background-position: center;
+    background-size: cover;
+    /* background: var(--GREY, rgba(46, 47, 66, 0.70)); */
 }
 .page-title{
     color: #FFF;
@@ -154,7 +161,7 @@ img {
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: 1.12px;
-    background: #2E2F42;
+    /* background: #2E2F42; */
     line-height: 1.07;
     max-width: 496px;
     display: block;
