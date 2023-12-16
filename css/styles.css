@@ -350,7 +350,7 @@ img {
 
 }
 .img-text:hover{
-    transform:translateY(0%);
+    transform: translateY(0%);
 }
 .portfolio-list{
     display: flex;
