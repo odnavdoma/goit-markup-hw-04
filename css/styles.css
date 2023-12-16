@@ -51,10 +51,14 @@ img {
     align-items: center;
     margin-right: auto;
     padding: 24px 0 24px;
+   
+
+
 }
   
 .top-line{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .header-list{
     display: flex;
@@ -101,7 +105,7 @@ img {
     
 }
 .header-nav{
-    color: #2E2F42;
+
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -109,6 +113,8 @@ img {
   line-height: 24px;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  position: relative;
+  color: #404bbf;
 }
 
 .header-nav:hover,
@@ -134,6 +140,7 @@ img {
     font-weight: 500;
     line-height: 24px; 
     letter-spacing: 0.32px; 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress-link:hover,
 .adress-link:active{
@@ -148,8 +155,7 @@ img {
   margin: auto;
     background-color: #2e2f42;
     padding: 188px 0;
-   
-    background-image: url(../images/hero/people-office\ 1\ \(2\).jpg); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)), url(../images/hero/people-office\ 1\ \(2\).jpg); 
     background-position: center;
     background-size: cover;
     /* background: var(--GREY, rgba(46, 47, 66, 0.70)); */
